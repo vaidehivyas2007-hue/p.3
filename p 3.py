@@ -59,7 +59,7 @@ while True:
 
         case 3:
             # Update Student Information
-            search_id = input("Enter Student ID to update: ")
+            search_id = int(input("Enter Student ID to update: "))
             found = False
             
             for stu in students:
@@ -100,7 +100,7 @@ while True:
                     
         case 4:
             # Delete Student using 'del'
-            student_id = input("Enter Delete Student ID: ")
+            student_id =int( input("Enter Delete Student ID: "))
             found = False
             
             for stu in students:
